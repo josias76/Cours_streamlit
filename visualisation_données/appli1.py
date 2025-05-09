@@ -22,4 +22,4 @@ st.bar_chart(bar_data)
 
 df = pd.read_excel("new_york.xlsx").head(100)
 st.write(df.head(10))
-#st.map(df[['longitude','latitude']])
+st.map(df[['longitude','latitude']])
