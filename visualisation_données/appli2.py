@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import plotly.express as px
 
-
+#navicon and header
+st.set_page_config(page_title="Data_viz2", page_icon="📈", layout="wide")  
 st.title("Data visualisation avec streamlit")
 st.subheader("Auteur : josias_nteme")
 st.markdown("***Cette application affiche différents types de graphiques***")
@@ -84,3 +85,11 @@ ax_mt=plt.hist(airbnb['days_occupied'])
 plt.xlabel("Nombre de jours d'occupation de l'appartement")
 st.pyplot(fig_mt)
 
+
+
+st.markdown("""
+    <hr style="border-top: 1px solid #4CAF50; margin-top: 50px;"/>
+    <div style="text-align: center; color: #888; font-size: 0.9em;">
+        &copy; 2025 <strong>Josias Nteme</strong> - Tous droits réservés.
+    </div>
+""", unsafe_allow_html=True)
