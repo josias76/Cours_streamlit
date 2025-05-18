@@ -55,7 +55,7 @@ if st.button("Predict"):
         compression_ratio,horsepower,peak_rpm,city_mpg,highway_mpg
 
     )
-    resultat = "Le prixn(en dollars) de cette voiture est égal à : " + str(prediction[0])
+    resultat = "Le prix(en dollars) de cette voiture est égal à : " + str(prediction[0])
     st.success(resultat)
 
 
